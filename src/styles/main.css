@@ -1,10 +1,15 @@
+.container{
+    background-image: url('../images/bg.png');
+}
+
 .square{
     width: 150px;
     height: 150px;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
+    background-color: #000;
 }
 
 .enemy{
-    background-image: url("url('./src/images/ralph.png')");
+    background-image: url('../images/ralph.png');
     background-size: cover;
 }

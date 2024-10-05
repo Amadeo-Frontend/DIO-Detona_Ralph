@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /login/
 
-Sitemap: https://seusite.com/sitemap.xml
+Sitemap: https://dio-detona-ralph-eight.vercel.app/sitemap.xml

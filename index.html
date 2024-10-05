@@ -64,13 +64,30 @@
     />
 
     <!-- Styles -->
+
     <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link href="/dist/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/main.css">
   </head>
   <body>
     <main>
-        <div>
-            <h1>Detona Rlph</h1>
+        <div class="container">
+            
+            <div class="menu">
+                <div class="menu-time">
+                    <h2 class="text-red-500">Time Left</h2>
+                    <h2>0</h2>
+                </div>
+                <div class="menu-score">
+                    <h2 style="color: red;">Your Score</h2>
+                    <h2>0</h2>
+                </div>
+                <div class="menu-lives">
+                    <img src="./src/images/lives.png" alt="vidas">
+                    <h2>x3</h2>
+                </div>
+            </div>
+            <div class="panel"></div>
         </div>
     </main>
 

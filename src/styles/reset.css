@@ -1,0 +1,159 @@
+/* Reset CSS - Cross-browser Compatibility */
+
+/* Remove padding and margin from all elements, set border box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", system-ui;
+}
+
+/* Set default body properties */
+body {
+  line-height: 1;
+  font-size: 100%;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remove list styles from ul and ol */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default quotes from blockquotes and q */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Remove border and set consistent appearance for all elements */
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* Set consistent border and background for links */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Reset button and input elements */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+/* Remove default styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* Remove default styling for fieldset and legend */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  color: inherit;
+  white-space: normal;
+}
+
+/* Set anchor outline to none */
+a:focus {
+  outline: none;
+}
+
+/* Ensure iframe is displayed consistently across browsers */
+iframe {
+  border: 0;
+}
+
+/* Reset the box shadow and outline for focusable elements */
+:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Normalize hr element */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+
+/* Table collapse borders */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Make all HTML5 elements display block */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Reset input appearance for older browsers */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Reset vertical alignment for all inline elements */
+svg,
+img,
+object,
+embed {
+  vertical-align: middle;
+}

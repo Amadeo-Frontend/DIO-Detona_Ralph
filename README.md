@@ -1,4 +1,4 @@
-# 🚀 Detona Ralph - Jogo de Reação
+# 🚀 Detona Ralph
 
 Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**, desenvolvido utilizando **HTML**, **CSS** e **JavaScript**. É um jogo divertido e interativo no qual os jogadores precisam acertar o inimigo que aparece em diferentes quadrados, testando a velocidade de reação.
 

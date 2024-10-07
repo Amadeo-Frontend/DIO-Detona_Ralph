@@ -5,7 +5,7 @@ Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**
 ## 🎮 Funcionalidades do Jogo
 
 - 🟦 **Inimigos Aleatórios**: Os inimigos aparecem aleatoriamente nos quadrados do painel.
-- ⏱️ **Contagem de Tempo**: O jogo possui um cronômetro que começa em 60 segundos e diminui a cada segundo.
+- ⏱️ **Contagem de Tempo**: O jogo possui um cronômetro que começa em 10 segundos e diminui a cada segundo.
 - 🏆 **Sistema de Pontuação**: Cada vez que o jogador clica corretamente no inimigo, a pontuação aumenta.
 - ❤️ **Sistema de Vidas**: O jogador começa com 3 vidas. Clicar fora do inimigo resulta na perda de uma vida.
 - 💀 **Game Over Modal**: Quando o tempo ou as vidas se esgotam, um modal de "Game Over" aparece mostrando a pontuação final do jogador.

@@ -17,16 +17,6 @@
     color: #ffffff;
   }
   
-  .menu-time h2 {
-    color: #ef4444;
-    margin-bottom: 8px;
-  }
-  
-  .menu-score h2 {
-    color: #ff0000;
-    margin-bottom: 8px;
-  }
-  
   .menu-lives {
     display: flex;
     align-items: center;
@@ -37,6 +27,10 @@
     height: 60px;
     margin: 8px;
   }
+
+  .second{
+    margin-top: 8px;
+  }
   
   /* Panel Styles */
   .panel {
@@ -46,9 +40,6 @@
     justify-content: center;
   }
   
-  .panel-row {
-    display: flex;
-  }
   
   .square {
     width: 150px;
@@ -85,9 +76,8 @@
   
   
   #modalButton:hover {
-    background-color: #dc2626; /* dark red on hover */
+    background-color: #dc2626;
   }
-  
   /* Responsive Styles */
   @media (max-width: 768px) {
     .square {
@@ -118,3 +108,4 @@
       height: 40px;
     }
   }
+  

@@ -13,7 +13,7 @@ Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**
 ## 💻 Tecnologias Utilizadas
 
 - **HTML**: Estrutura da página e dos elementos do jogo.
-- **CSS/Tailwind CSS**: Estilização dos elementos e do modal de "Game Over".
+- **CSS**: Estilização dos elementos e do modal de "Game Over".
 - **JavaScript**: Lógica do jogo, incluindo movimentação dos inimigos, pontuação e controle do tempo.
 
 ## 📋 Como Jogar

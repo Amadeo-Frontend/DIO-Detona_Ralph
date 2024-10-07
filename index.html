@@ -70,24 +70,23 @@
     <!-- Styles -->
 
     <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link href="/dist/tailwind.css" rel="stylesheet" />
     <link rel="stylesheet" href="./src/styles/main.css" />
   </head>
   <body>
     <main>
-      <div class="container flex flex-col h-screen">
+      <div class="container">
         <div
-          class="menu border-b-4 border-yellow-400 flex justify-evenly items-center w-full h-[90px] bg-black text-white"
+          class="menu"
         >
           <div class="menu-time">
-            <h2 class="text-red-500">Time Left</h2>
+            <h2>Time Left</h2>
             <h2 id="time">0</h2>
           </div>
           <div class="menu-score">
-            <h2 style="color: red">Your Score</h2>
+            <h2>Your Score</h2>
             <h2 id="score">0</h2>
           </div>
-          <div class="menu-lives flex items-center justify-center">
+          <div class="menu-lives">
             <img
               class="h-[60px] m-2"
               src="./src/images/player.png"
@@ -96,7 +95,7 @@
             <h2 id="lives">x3</h2>
           </div>
         </div>
-        <div class="panel mt-4 flex items-center justify-center">
+        <div class="panel">
           <div class="panel-row">
             <div class="square" id="1"></div>
             <div class="square enemy" id="2"></div>

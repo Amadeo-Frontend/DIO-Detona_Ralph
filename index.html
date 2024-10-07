@@ -6,7 +6,11 @@
     <title>Detona Ralph</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.png"
+      type="image/x-icon"
+    />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -66,47 +70,55 @@
     <!-- Styles -->
 
     <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link href="/dist/tailwind.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/main.css">
+    <link href="/dist/tailwind.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
   </head>
   <body>
     <main>
-        <div class="container flex flex-col h-screen">
-            
-            <div class="menu flex justify-evenly items-center w-full h-[90px] bg-black text-white">
-                <div class="menu-time">
-                    <h2 class="text-red-500">Time Left</h2>
-                    <h2>0</h2>
-                </div>
-                <div class="menu-score">
-                    <h2 style="color: red;">Your Score</h2>
-                    <h2>0</h2>
-                </div>
-                <div class="menu-lives">
-                    <img class="w-12 h-auto" src="./src/images/lives.png" alt="vidas">
-                    <h2>x3</h2>
-                </div>
-            </div>
-            <div class="panel mt-4 flex items-center justify-center">
-                <div class="panel-row">
-                    <div class="square" id="1"></div>
-                    <div class="square enemy" id="2"></div>
-                    <div class="square" id="3"></div>
-                </div>
-                <div class="panel-row">
-                    <div class="square" id="4"></div>
-                    <div class="square" id="5"></div>
-                    <div class="square" id="6"></div>
-                </div>
-                <div class="panel-row">
-                    <div class="square" id="7"></div>
-                    <div class="square" id="8"></div>
-                    <div class="square" id="9"></div>
-                </div>
-            </div>
+      <div class="container flex flex-col h-screen">
+        <div
+          class="menu border-b-4 border-yellow-400 flex justify-evenly items-center w-full h-[90px] bg-black text-white"
+        >
+          <div class="menu-time">
+            <h2 class="text-red-500">Time Left</h2>
+            <h2 id="time">0</h2>
+          </div>
+          <div class="menu-score">
+            <h2 style="color: red">Your Score</h2>
+            <h2 id="score">0</h2>
+          </div>
+          <div class="menu-lives flex items-center justify-center">
+            <img
+              class="h-[60px] m-2"
+              src="./src/images/player.png"
+              alt="vidas"
+            />
+            <h2 id="lives">x3</h2>
+          </div>
         </div>
+        <div class="panel mt-4 flex items-center justify-center">
+          <div class="panel-row">
+            <div class="square" id="1"></div>
+            <div class="square enemy" id="2"></div>
+            <div class="square" id="3"></div>
+          </div>
+          <div class="panel-row">
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+          </div>
+          <div class="panel-row">
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+          </div>
+        </div>
+      </div>
     </main>
-
+    <div id="gameOverModal">
+      <p id="modalText"></p>
+      <button id="modalButton">Jogar Novamente</button>
+    </div>
     <!-- Scripts -->
     <script defer src="./src/scripts/engine.js"></script>
   </body>

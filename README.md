@@ -23,6 +23,13 @@ Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**
 3. ⚠️ Cuidado para não clicar fora do inimigo, pois você perderá uma vida.
 4. ⏳ O jogo termina quando o tempo acaba ou quando todas as vidas são perdidas.
 
+## ▶ Demo
+
+[Uploadi[InternetShortcut]
+URL=https://github.com/Amadeo-Frontend/DIO-Detona_Ralph/blob/main/src/video/demo.mp4
+ng DIO-Detona_Ralph-src-video-demo.mp4 at main · Amadeo-Frontend-DIO-Detona_Ralph.url…]()
+
+
 ## 📂 Estrutura do Projeto
 
 - 📄 **index.html**: Contém a estrutura básica do jogo e o modal de "Game Over".

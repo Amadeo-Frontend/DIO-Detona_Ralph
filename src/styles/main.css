@@ -1,115 +1,201 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-image: url('../images/bg.png');
-  }
-  
-  /* Menu Styles */
-  .menu {
-    border-bottom: 4px solid #fbbf24;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 90px;
-    background-color: #000000;
-    color: #ffffff;
-  }
-  
-  .menu-lives {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .menu-lives img {
-    height: 60px;
-    margin: 8px;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../images/bg.png");
+}
 
-  .second{
-    margin-top: 8px;
-  }
-  
-  /* Panel Styles */
-  .panel {
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  
-  .square {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #ffffff;
-    background-color: #000;
-  }
+/* Menu Styles */
+.menu {
+  border-bottom: 4px solid #fbbf24;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: #000000;
+  color: #ffffff;
+}
 
-  .square:hover{
-    cursor: grabbing;
-  }
+.menu-lives {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .enemy{
-    background-image: url('../images/ralph.png');
-    background-size: cover;
+.menu-lives img {
+  height: 60px;
+  margin: 8px;
+}
+
+.second {
+  margin-top: 8px;
+}
+
+/* Panel Styles */
+.panel {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Animação para o Título do Menu */
+.menu h2 {
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Animação para os Elementos do Menu (tempo, pontuação e vidas) */
+.menu-time,
+.menu-score,
+.menu-lives {
+  animation: bounceIn 1.2s ease-out;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ffffff;
+  background-color: #000;
+  animation: squareAppear 1.5s ease-in forwards;
+  opacity: 0;
+}
+
+.square:hover {
+  cursor: grabbing;
+}
+
+.enemy {
+  background-image: url("../images/ralph.png");
+  background-size: cover;
+}
+
+/* Definições das Animações */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes squareAppear {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Controle do Tempo de Animação dos Quadrados para dar um Efeito Cascata */
+#1 {
+  animation-delay: 0.2s;
+}
+#2 {
+  animation-delay: 0.4s;
+}
+#3 {
+  animation-delay: 0.6s;
+}
+#4 {
+  animation-delay: 0.8s;
+}
+#5 {
+  animation-delay: 1s;
+}
+#6 {
+  animation-delay: 1.2s;
+}
+#7 {
+  animation-delay: 1.4s;
+}
+#8 {
+  animation-delay: 1.6s;
+}
+#9 {
+  animation-delay: 1.8s;
 }
 
 #gameOverModal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    display: none;
-    z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1000;
+}
+#modalButton {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#modalButton:hover {
+  background-color: #dc2626;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .square {
+    width: 80px;
+    height: 80px;
   }
-  #modalButton { 
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #000000;
-    color: white;
-    border: none;
-    cursor: pointer;
+
+  .menu {
+    height: 70px;
   }
-  
-  
-  #modalButton:hover {
-    background-color: #dc2626;
+
+  .menu-lives img {
+    height: 50px;
   }
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .square {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .menu {
-      height: 70px;
-    }
-  
-    .menu-lives img {
-      height: 50px;
-    }
+}
+
+@media (max-width: 480px) {
+  .square {
+    width: 60px;
+    height: 60px;
   }
-  
-  @media (max-width: 480px) {
-    .square {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .menu {
-      height: 60px;
-    }
-  
-    .menu-lives img {
-      height: 40px;
-    }
+
+  .menu {
+    height: 60px;
   }
-  
+
+  .menu-lives img {
+    height: 40px;
+  }
+}

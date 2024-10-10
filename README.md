@@ -18,7 +18,7 @@ Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**
 
 ## 📋 Como Jogar
 
-1. 🔗 Abra o jogo no navegador.
+1. 🔗 <a href="https://detona-ralph-iota.vercel.app/">Abra o jogo no navegador</a>.
 2. 👆 Clique no inimigo que aparece aleatoriamente nos quadrados do painel.
 3. ⚠️ Cuidado para não clicar fora do inimigo, pois você perderá uma vida.
 4. ⏳ O jogo termina quando o tempo acaba ou quando todas as vidas são perdidas.

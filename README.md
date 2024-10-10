@@ -25,9 +25,10 @@ Este projeto é uma recriação do jogo inspirado no personagem **Detona Ralph**
 
 ## ▶ Demo
 
-[Uploadi[InternetShortcut]
-URL=https://github.com/Amadeo-Frontend/DIO-Detona_Ralph/blob/main/src/video/demo.mp4
-ng DIO-Detona_Ralph-src-video-demo.mp4 at main · Amadeo-Frontend-DIO-Detona_Ralph.url…]()
+
+
+https://github.com/user-attachments/assets/22f2d606-dd01-4af1-939d-5caef1d494d9
+
 
 
 ## 📂 Estrutura do Projeto

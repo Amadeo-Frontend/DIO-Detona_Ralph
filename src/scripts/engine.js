@@ -15,7 +15,7 @@ const state = {
       gameVelocity: 1000,
       hitPosition: 0,
       result: 0,
-      currentTime: 10,
+      currentTime: 20,
       lives: 3,
     },
   };
@@ -93,7 +93,7 @@ const state = {
   function resetGame() {
     state.values.result = 0;
     state.view.score.textContent = state.values.result;
-    state.values.currentTime = 10;
+    state.values.currentTime = 20;
     state.view.timeLeft.textContent = state.values.currentTime;
     state.values.lives = 3;
     state.view.lives.textContent = "x" + state.values.lives;

@@ -48,6 +48,10 @@
     background-color: #000;
   }
 
+  .square:hover{
+    cursor: grabbing;
+  }
+
   .enemy{
     background-image: url('../images/ralph.png');
     background-size: cover;

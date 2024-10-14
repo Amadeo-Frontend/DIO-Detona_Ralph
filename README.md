@@ -39,16 +39,6 @@ https://github.com/user-attachments/assets/22f2d606-dd01-4af1-939d-5caef1d494d9
 - 🔊 **/src/audios/**: Contém os efeitos sonoros, como o som de acerto (`hit.m4a`) e o som de erro (`miss.wav`).
 - 🖼️ **/src/images/**: Imagens usadas no jogo, incluindo ícones e sprites.
 
-## 🖥️ Como Executar o Projeto Localmente 
-
-Para executar o projeto localmente, siga estas etapas:
-
-1. Clone o repositório do projeto para sua máquina local.
-2. Navegue até a pasta do projeto no terminal.
-3. Instale as dependências do projeto executando `npm install`.
-4. Inicie o servidor de desenvolvimento com `npm run dev`.
-
-O projeto agora será disponibilizado no navegador local, permitindo visualizar e testar as funcionalidades em um ambiente de desenvolvimento.
 
 ## 🤝 Contribuições
 
